@@ -1,0 +1,12 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": ["**/tests/**/*.test.ts"],
+  "collectCoverageFrom": ["src/**/*.ts"],
+  "coverageReporters": ["text", "html", "lcov", "json-summary"],
+  "coverageThreshold": {
+    "global": { "branches": 91, "functions": 91, "lines": 91, "statements": 91 }
+  },
+  "clearMocks": true,
+  "restoreMocks": true
+}
